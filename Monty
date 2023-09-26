@@ -1,0 +1,8 @@
+def right_justify(s):
+ 
+#print the spaces followed by the string
+ space_length= 70 - len(s)
+ print(' ' * space_length + s) 
+
+
+right_justify("monty")
